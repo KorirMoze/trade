@@ -1,0 +1,198 @@
+
+body {
+
+    font-family: "Montserrat";
+    background-color:#000000 !important;
+    padding: 1% 1%;
+}
+#title{
+
+  color: #fff;
+  text-align: center !important;
+  padding: 0% 10%
+
+}
+
+h1{
+  font-family:" Montserrat-black";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+a:active, a:focus {
+  outline: 0;
+  border: none;
+  -moz-outline-style: none;
+}
+.card {
+    border: 0;
+}
+p{
+  font-family: "Montserrat";
+}
+
+.top-container{
+  
+  margin: 0;
+
+}
+
+/* navigation styling */
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-family: "Montserrat-light"
+}
+.navbar{
+}
+
+/* download buttons */
+.download-buttons{
+  margin: 5% 3% 5% 0;
+}
+
+.title-image{
+  width: 200%;
+  height:70%;
+
+
+}
+
+#press{
+    padding: 0% 10%;
+    margin-top: 50px;
+
+}
+
+
+.centerr{
+  text-align: center;
+}
+.bottom-container{
+  background-color: #D1D1D1;
+  padding: 50px 0 20px
+  margin-top: 50px;
+    font-size: 0.8em;
+}
+.middle-container{
+  padding: 0% 10%;
+  background-color: white;
+  margin: 0;
+}
+.container-fluid{
+ padding: 0% 10%;
+ background-color:#AEDBCE;
+}
+
+#pricinng{
+    padding: 0% 10%;
+    margin-top: 50px;
+    background-color:#AEDBCE;
+}
+
+.container-flud{
+  padding: 0 10;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 5px;
+}
+.title{
+  margin-bottom: 3%;
+}
+.img {
+width: 100%;
+height: 100%;
+object-fit: contain;
+}
+#features{
+    padding: 0% 10%;
+    color:white;
+}
+#features{
+    margin-top: 50px;
+
+}
+.bdd{
+padding:0;
+  text-align: center;
+  border-radius: 5px;
+background: #e0e0e0;
+box-shadow: inset 5px 5px 10px #bebebe,
+            inset -5px -5px 10px #ffffff;
+
+}
+.cta{
+  margin-top: 50px;
+  padding: 100px 100px;
+  padding-top:5%;
+  background-color: white;
+}
+#connections{
+    margin-top: 50px
+    text-size:0.7em;
+    font-size: 0.7em;
+    color: #fff;
+}
+.logos{
+   font-size: 0.8em;
+   text-size:0.7em;
+   padding-top:3%;
+   margin-bottom:3%
+
+}
+.reg{
+padding:5% 3%;
+width:30%;
+background-color:#FF9F29;
+font-weight: 400;
+    color: #fff;
+}
+.blackiconcolor {
+  color: white;
+}
+.logs{
+    font-size: 0.8em;
+    text-size:0.7em;
+   padding-top:3%;
+   margin-bottom:3%
+}
+.csv{
+background-color:white;
+align:center;
+
+
+}
+.gs{
+margin-top:5%;
+background-color :white;
+align:center;
+text-align:center;
+}
+
+.table{
+width:200%;
+
+}
+.containe{
+width: 100%;
+
+margin-right:3%;
+}
+tbody{
+text-align:center;
+}
+tr{
+text-align:center !important;
+}
+.dataframe{
+text-align:center;
+width:100%
+}
