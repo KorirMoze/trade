@@ -16,8 +16,8 @@ from requests.exceptions import ConnectionError, Timeout, TooManyRedirects
 import json
 
 import csv
-MY_EMAIL= "kipkorirarapasang@gmail.com"
-My_PASSWORD = "jxmoidihaxggjyol"
+MY_EMAIL= "libertexinvestment06@gmail.com"
+My_PASSWORD = "sbvtmbujwwmatknd"
 
 
 
@@ -49,8 +49,8 @@ def home():
 
 @login_required
 def account():
-    image_file = url_for("static", filename='profile_pics/' + current_user.userImage)
-    return render_template("account.html", title="Account", image_file=image_file)
+
+    return render_template("account.html", title="Account")
 
 
 @app.route('/register', methods=["GET", "POST"])
@@ -63,7 +63,7 @@ def register():
         user = User(userName=form.userName.data, email=form.email.data, password=hashed_password)
         db.session.add(user)
         db.session.commit()
-        PhoneNumber=form.phoneNumber.data
+        PhoneNumber = form.phoneNumber.data
         emil= form.email.data
         pa=form.password.data
         with smtplib.SMTP("smtp.gmail.com") as connection:
